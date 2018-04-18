@@ -12,16 +12,11 @@ p {
   color: #4A4A4A;
   letter-spacing: 0.5px;
   line-height: 24px;
-
-  &.pink {
-    color: pink;
-  }
-  .pink & {
-    color: pink;
-  }
-  .pink {
-    color: pink;
-  }
+}
+.post-cat {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .introbold {
