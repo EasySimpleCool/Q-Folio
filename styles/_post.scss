@@ -1,7 +1,6 @@
 .post {
     display: grid;
     grid-template-columns: 15px 1fr 15px;
-    grid-template-areas: "hero"
 }
 
 .post > * {
