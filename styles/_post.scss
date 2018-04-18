@@ -30,6 +30,8 @@
 
 .post-title {
   width: 275px;
-  font-weight: 800;
   color: #FFFFFF;
+  > h1 {
+    font-weight: 800;
+  }
 }
