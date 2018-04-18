@@ -1,0 +1,17 @@
+.header {
+  background-color: #fff;
+  grid-area: header;
+}
+
+.intro {
+  grid-area: intro;
+  align-self: center;
+
+  > h1 {
+    margin: 0 auto;
+    max-width: 295px;
+    @media screen and (min-width: 600px) {
+      max-width: 400px;
+    }
+  }
+}

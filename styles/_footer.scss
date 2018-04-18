@@ -1,0 +1,15 @@
+.footer {
+  grid-area: footer;
+  align-self: stretch;
+  background-color: #F2F2F2;
+  > p {
+      margin-top: 64px;
+    }
+  & a {
+      text-decoration: none;
+      color: #4A4A4A;
+    }
+  & a:visited {
+    color: #4A4A4A;
+  }
+}

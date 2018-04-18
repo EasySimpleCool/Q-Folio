@@ -1,0 +1,9 @@
+.post {
+    display: grid;
+    grid-template-columns: 15px 1fr 15px;
+}
+
+.post > * {
+    grid-column: 2;
+    min-width: 0;
+}

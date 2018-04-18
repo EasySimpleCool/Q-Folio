@@ -1,0 +1,21 @@
+.portfolio-list {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 15px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 2fr));
+  grid-auto-rows: 240px;
+  text-align: center;
+
+  > div {
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0BBACC;
+    > p {
+      color: #FFF;
+    }
+  }
+}
