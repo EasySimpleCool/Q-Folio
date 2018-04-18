@@ -1,5 +1,5 @@
 var myApp = new Vue({
-  el: '#title',
+  el: '#portfolio-list',
   data: {
     title: "New Title"
   }
