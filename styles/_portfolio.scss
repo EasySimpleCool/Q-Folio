@@ -20,6 +20,10 @@
   }
 }
 
+.folio-item {
+  transition: all 0.3s ease-out;
+}
+
 .folio-item:hover {
     transition: all 0.3s ease-out;
     transform: translateY(-10px) scale(1.005) translateZ(0);
