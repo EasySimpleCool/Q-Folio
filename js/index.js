@@ -3,4 +3,4 @@ var myApp = new Vue({
   data: {
     title: "New Title"
   }
-})
+});
