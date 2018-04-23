@@ -1,5 +1,5 @@
 Vue.component ('post', {
-  template: '<a class="folio-item"><p>{{ title }}</p></a>'
+  template: '<a class="folio-item"><p>Item</p></a>'
   }
 )
 
