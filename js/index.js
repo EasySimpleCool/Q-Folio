@@ -1,6 +1,28 @@
-var myApp = new Vue({
+Vue.component ('post', {
+  template: '<a class="folio-item"><p>{{ title }}</p></a>'
+  }
+)
+
+var app = new Vue({
   el: '.portfolio-list',
   data: {
-    title: "New Title"
+    title: [
+      {
+        name: 'First Post'
+        background: ''
+      },
+      {
+        name: 'Second Post'
+        background: ''
+      },
+      {
+        name: 'Third Post'
+        background: ''
+      },
+      {
+        name: 'Fourth Post'
+        background: ''
+      },
+    ]
   }
 });
