@@ -18,7 +18,7 @@ var app = new Vue({
       },
       {
         name: 'Fourth Post'
-      },
+      }
     ]
   }
 });
