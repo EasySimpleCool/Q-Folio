@@ -6,7 +6,7 @@ Vue.component ('item', {
 var app = new Vue({
   el: '.portfolio-list',
   data: {
-    title: [
+    titles: [
       {
         name: 'First Post'
       },
