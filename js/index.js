@@ -1,4 +1,4 @@
-Vue.component ('post', {
+Vue.component ('item', {
   template: '<a class="folio-item"><p>Item</p></a>'
   }
 );
@@ -9,19 +9,15 @@ var app = new Vue({
     title: [
       {
         name: 'First Post'
-        background: ''
       },
       {
         name: 'Second Post'
-        background: ''
       },
       {
         name: 'Third Post'
-        background: ''
       },
       {
         name: 'Fourth Post'
-        background: ''
       },
     ]
   }
