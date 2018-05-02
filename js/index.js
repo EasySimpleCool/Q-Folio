@@ -10,15 +10,19 @@ var app = new Vue({
     titles: [
       {
         name: 'First Post'
+        background-color: '#0BBACC';
       },
       {
         name: 'Second Post'
+        background-color: '#FFC176';
       },
       {
         name: 'Third Post'
+        background-color: '#4A4A4A';
       },
       {
         name: 'Fourth Post'
+        background-color: '#965CDA';
       }
     ]
   }
