@@ -1,5 +1,5 @@
 Vue.component ('item', {
-  template: '<a class="folio-item"><p>Item</p></a>'
+  template: '<a class="name"><p>Item</p></a>'
   }
 );
 
