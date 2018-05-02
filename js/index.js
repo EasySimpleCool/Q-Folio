@@ -1,7 +1,7 @@
 Vue.component ('post', {
   template: '<a class="folio-item"><p>Item</p></a>'
   }
-)
+);
 
 var app = new Vue({
   el: '.portfolio-list',
