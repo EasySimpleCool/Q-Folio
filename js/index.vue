@@ -23,3 +23,6 @@ var app = new Vue({
     ]
   }
 });
+
+<script>
+</script>
