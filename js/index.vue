@@ -21,19 +21,19 @@ var app = new Vue({
       },
       {
         name: 'Fourth Post'
-      }
+      },
       {
         name: 'Fifth Post'
-      }
+      },
       {
         name: 'Sixth Post'
-      }
+      },
       {
         name: 'Seventh Post'
-      }
+      },
       {
         name: 'Eighth Post'
-      }
+      },
     ]
   }
 });
