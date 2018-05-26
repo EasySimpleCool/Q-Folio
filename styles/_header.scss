@@ -5,6 +5,7 @@
 
 .title {
   grid-area: title;
+  align-self: center;
   > h1 {
     margin: 0 auto;
     max-width: 295px;
