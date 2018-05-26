@@ -22,9 +22,9 @@
 
 .PostTitle {
     grid-area: 1 / 1 / 1 / 3;
+    align-self: center;
     #title {
       grid-area: title;
-      align-self: center;
       > h1 {
         margin: 0 auto;
         max-width: 295px;
