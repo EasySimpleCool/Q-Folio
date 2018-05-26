@@ -23,7 +23,7 @@
 .PostTitle {
     grid-area: 1 / 1 / 1 / 3;
     background-color: blue;
-    title {
+    #title {
       grid-area: title;
       align-self: center;
       > h1 {
