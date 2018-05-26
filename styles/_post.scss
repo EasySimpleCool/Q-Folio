@@ -10,3 +10,24 @@
     grid-column: 2;
     min-width: 0;
 }
+
+.grid-container {
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1px 1px;
+}
+
+[data-area="Post Title"] {
+    grid-area: 1 / 1 / 1 / 3;
+}
+
+[data-area="Prototype"] {
+    grid-area: 2 / 1 / 4 / 1;
+}
+
+[data-area="Words"] {
+    grid-area: 2 / 2 / 4 / 2;
+}

@@ -14,6 +14,7 @@ var app = new Vue({
       },
       {
         name: 'Second Post'
+        link: '/folio02'
       },
       {
         name: 'Third Post'
