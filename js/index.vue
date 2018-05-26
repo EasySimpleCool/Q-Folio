@@ -9,7 +9,7 @@ var app = new Vue({
   data: {
     titles: [
       {
-        name: 'First Post'
+        name: 'First Post',
         url: '/folio01'
       },
       {
