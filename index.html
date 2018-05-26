@@ -8,14 +8,22 @@
 		<title>Q</title>
 </head>
 	<body>
+			<!-- Start first grid row -->
 			<header class="header"><img src="images/logo.svg"></header>
+			<!-- End first grid row -->
+			<!-- Start second grid row -->
 			<section class="content">
 				<div class="title"><h1><span class="introbold">Hey</span> my name’s <span class="introbold">Q</span>. <span class="introbold">Interaction Designer</span> based in <span class="introbold">Melbourne</span>.</h1></div>
-				<div class="main portfolio-list">
-					<item v-for="title in titles" v-bind:titleitem="title"></item>
-				</div>
+				<div class="main">
+					<div class="portfolio-list">
+						<item v-for="title in titles" v-bind:titleitem="title"></item>
+					</div>
+			</div>
 			</section>
+			<!-- End second grid row -->
+			<!-- Start third grid row -->
 			<footer class="footer"><p>Made by <b><a href="#">Q</a></b></footer>
+			<!-- Start third grid row -->
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 		<script src="js/index.vue"></script>
 	</body>
