@@ -10,9 +10,8 @@ html {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 320px 1fr 160px;
+  grid-template-rows: 80px 1fr 160px;
   grid-template-areas: "header"
-                       "intro"
                        "content"
                        "footer";
 }
