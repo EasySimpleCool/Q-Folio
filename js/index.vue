@@ -13,7 +13,7 @@ var app = new Vue({
         link: '/folio01.html'
       },
       {
-        name: 'Second Post'
+        name: 'Second Post',
         link: '/folio02'
       },
       {
