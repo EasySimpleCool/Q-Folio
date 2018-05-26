@@ -10,7 +10,7 @@ var app = new Vue({
     titles: [
       {
         name: 'First Post',
-        link: 'folio01.html'
+        link: '/folio01.html'
       },
       {
         name: 'Second Post'
