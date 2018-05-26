@@ -1,6 +1,6 @@
 Vue.component ('item', {
   props: ['titleitem'],
-  template: '<a class="folio-item" href="{{ titleitem.url }}">><p>{{ titleitem.name }}</p></a>'
+  template: '<a class="folio-item" href="{{ titleitem.link }}"><p>{{ titleitem.name }}</p></a>'
   }
 );
 
@@ -10,7 +10,7 @@ var app = new Vue({
     titles: [
       {
         name: 'First Post',
-        url: '/folio01'
+        link: '/folio01'
       },
       {
         name: 'Second Post'
